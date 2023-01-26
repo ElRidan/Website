@@ -377,6 +377,9 @@ footer .col{
     align-items: flex-start;
     margin-bottom: 20px;
 }
+footer .col img{
+    margin-bottom: 20px;
+}
 
 footer .logo{
     margin-bottom: 30px;
@@ -412,6 +415,7 @@ footer .follow i{
 footer .install .row img{
     border: 1px solid #222;
     border-radius: 6px;
+   
 }
 
 footer .install img{
@@ -686,7 +690,7 @@ footer a:hover{
 }
 
 #prodetails .single-pro-image{
-    width: 40%;
+    width: 30%;
     margin-right: 50px;
 }
 
@@ -736,10 +740,54 @@ footer a:hover{
 }
 
 .small-img-col{
-    flex-basis: 24%;
+    flex-basis: 24%;    
     cursor: pointer;
 }
 
-/* Blog */
+/* Contacto */
+#contactinfo{
+ 
+    background-color: #54798c43;
+    height: 120vh;
+    max-width: 100%;
+    padding: 0 80px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contactinfo img{
+    max-width: 10%;
+    margin-bottom: 30px;
+}
+
+#contactinfo h2{
+    color: #222;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contactinfo h4{
+    color: #222;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contactinfo a{
+    color: #5a88ba;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
 
 /* About Page */
+
+#about{
+    margin: 40px;
+
+
+}
