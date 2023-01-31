@@ -126,7 +126,7 @@ body{
 
 /* Home */
 #hero{
-    background-image:url("imagenes/guywithglasses.webp");
+    background-image:url("imagenes/portrait-of-happy-bearded-young-man-in-glasses-standing-outdoors.jpg");
     height: 90vh;
     max-width: 100%;
     background-size: cover;
@@ -644,9 +644,7 @@ footer a:hover{
         height: 220vh;
     }
     
-    #contactinfo .info-block img{
-        
-    }
+  
     
     #contactinfo h2{
         color: #222;
