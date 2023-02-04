@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -154,7 +156,7 @@ body{
 #hero a{
     background-image: url("imagenes/background_button.png");
     background-color: transparent;
-    color:#1290bae0;
+    color:#12c3fee0;
     border: 0;
     padding: 0px 0px 0px 0px;
     background-repeat: no-repeat;
@@ -288,7 +290,7 @@ background-color: rgba(18, 195, 254, 0.702);
     text-align: center;
     background-image: url("imagenes/feature-background-gallery-marble-ink-5.webp");
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-size: cover;
     background-position: center;
 }
@@ -428,248 +430,7 @@ footer a:hover{
 }
 
 /*cart page*/
-@media(max-width:820px){
-    .section-p1{
-        padding: 40px 80px;
-    }
 
-    #navbar{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;  
-        background-color: #737eaf;
-        box-shadow: 0 40px 60px rgba(70, 62, 221, 0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.3s;
-    }
-
-    #navbar.active{
-        right: 0px;
-    }
-
-    #navbar li{
-        margin-bottom: 25px;
-    }
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
-
-    #mobile i{  
-        color: #1d1a0c;
-        font-size: 24px;
-        padding: 20px;
-    }
-
-    #close{
-        display: initial;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        color: #222;
-        font-size: 22px;
-    }
-
-    #lg-bag{
-        display: none;
-    }
-
-    #hero {
-        
-        height: 90vh;
-        padding: 0 80px;
-        background-position: top 30% right 30%;
-    }
-
-    #feature {
-        justify-content: center;
-    }
-
-    #feature .fe-box {
-        margin: 15px 15px;
-    }
-
-    #product1 .pro-container{
-        justify-content: center;
-    }
-    
-    #product1 .pro{
-        margin: 15px;
-    }
-
-    #banner{
-        height: 20vh;
-    }
-
-    #sm-banner .banner-box{
-        min-width: 100%;
-        height: 30vh;
-    }
-
-    #banner3{
-        padding: 0 40px;
-    }
-
-    #banner3 .banner-box{
-        width: 28%;
-    }
-
-    #newsletter .form{
-        width: 100%;
-    }
-
-    #contactinfo{
-        background-size: 120vh;
-        height: 200vh;
-    }
-    
-    #contactinfo img{
-        
-            width: auto ;
-            max-width: 100% ;
-            height: auto ;
-        
-    }
-}
-
-@media (max-width: 477px){
-    .section-p1{
-        padding: 20px;
-    }
-
-    #header{
-        padding: 10px 30px;
-    }
-
-    #header a img{
-        width:70%;
-        height: 70%;
-    }
-
-    h1{
-        font-size: 38px;
-    }
-
-    h2{
-        font-size: 32px;
-    }
-
-    #hero{
-        padding: 0 20px;
-        background-position: 55%;
-    }
-
-    #feature{
-        justify-content: center;
-    }
-
-    #feature .fe-boxñ{
-        width: 155px;
-        margin: 0 0 15px 0;
-    }
-
-    #product1 .pro{
-        width: 100%;
-    }
-
-    #banner{
-        height:40hv;
-    }
-
-    #sm-banner .banner-box{
-        height: 40hv;
-    }
-    
-    #sm-banner .banner-box2{
-        margin-top: 20px;
-    }
-
-    #banner3{
-        padding: 0 20px;
-    }
-
-    #banner3 .banner-box{
-        width: 100%;
-    }
-
-    #prom-banner {
-        padding-top: 20px;
-        height: 40vh;
-    }
-
-    #newsletter{
-        padding: 40px 20px;
-    }
-
-    #newsletter .form{
-        width: 100%;
-    }
-
-    footer .copyright{
-        text-align: start;
-    }
-
-    /*Single Product*/
-    #prodetails{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    #prodetails .single-pro-image {
-        width: 100%;
-        margin-right: 0px;
-    }
-
-    #prodetails .single-pro-details{
-        width: 100%;
-    }
-
-    #prodetails button{
-        margin-top: 10px;
-    }
-  
-    /* Contact page */
-
-
-
-    #contactinfo{
-        background-size: 120vh;
-        height: 220vh;
-    }
-    
-  
-    
-    #contactinfo h2{
-        color: #222;
-        font-size: 36px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    
-    #contactinfo h4{
-        color: #222;
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    #contactinfo a{
-        color: #5a88ba;
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 10px;
-        text-decoration: none;
-    }
-
-
-}
 
 
 
@@ -822,6 +583,11 @@ footer a:hover{
     justify-content: center;
 }
 
+#info-block{
+    text-align: center;
+
+}
+
 #contactinfo img {
     width: auto;
     max-width: 150px;
@@ -855,6 +621,253 @@ footer a:hover{
 
 #about{
     margin: 40px;
+text-align: center;
+
+}
+
+
+/*Responsive design for mobile devices*/
+
+@media(max-width:820px){
+    .section-p1{
+        padding: 40px 80px;
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;  
+        background-color: #737eaf;
+        box-shadow: 0 40px 60px rgba(70, 62, 221, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{  
+        color: #1d1a0c;
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 22px;
+    }
+
+    #lg-bag{
+        display: none;
+    }
+
+    #hero {
+        
+        height: 90vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    #product1 .pro-container{
+        justify-content: center;
+    }
+    
+    #product1 .pro{
+        margin: 15px;
+    }
+
+    #banner{
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    }
+
+    #banner3{
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box{
+        width: 28%;
+    }
+
+    #newsletter .form{
+        width: 100%;
+    }
+
+    #contactinfo{
+        background-size: 120vh;
+        height: 200vh;
+    }
+    
+   
+}
+
+@media (max-width: 477px){
+    .section-p1{
+        padding: 20px;
+    }
+
+    #header{
+        padding: 10px 30px;
+    }
+
+    #header a img{
+        width:70%;
+        height: 70%;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    #feature{
+        justify-content: center;
+    }
+
+    #feature .fe-boxñ{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro{
+        width: 100%;
+    }
+
+    #banner{
+        height:40vh;
+    }
+
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+    
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+    }
+
+    #banner3{
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box{
+        width: 100%;
+    }
+
+    #prom-banner {
+        padding-top: 20px;
+        height: 44vh;
+    }
+
+    #newsletter{
+        padding: 40px 20px;
+    }
+
+    #newsletter .form{
+        width: 100%;
+    }
+
+    footer .copyright{
+        text-align: start;
+    }
+
+    #product-button a{
+        margin: 10px;
+        display: block;
+    }
+
+   
+    /*Single Product*/
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
+
+    #prodetails button{
+        margin-top: 10px;
+    }
+  
+    /* Contact page */
+
+
+
+    #contactinfo{
+        background-size: 160vh;
+        height: 180vh;
+    }
+    
+  
+    
+    #contactinfo h2{
+        color: #222;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    #contactinfo h4{
+        color: #222;
+        font-size: 20px;
+       
+        margin-bottom: 30px;
+    }
+    
+    #contactinfo a{
+        color: #5a88ba;
+        font-size: 20px;
+        
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
 
 
 }
