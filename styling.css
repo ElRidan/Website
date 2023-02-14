@@ -373,6 +373,10 @@ footer{
     justify-content: space-between;
 }
 
+footer p{
+   font-size: 16px;
+}
+
 footer .col{
     display: flex;
     flex-direction: column;
@@ -393,12 +397,12 @@ footer h4{
 }
 
 footer p{
-    font-size: 13px;
+    font-size: 16px;
     margin: 0 0 8px 0;
 }
 
 footer a{
-    font-size: 13px;
+    font-size: 16px;
     text-decoration: none;
     color:#222;
     margin-bottom: 10px ;
@@ -475,19 +479,57 @@ footer a:hover{
 }
 
 #product-button{
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+   
+    
+    padding: 0px;
+    margin: 50px;
 }
 
 #product-button a{
     color: #e2e5f3;
     padding: 15px 20px;
     text-decoration:none;
-    background-color: #6476a2;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #0b0a0a;
     border: #222;
     border-radius: 4px;
+    transition: 0.2s;
 }
+
+#product-button a:hover{
+    background-color: #e2e5f3 ;
+    color:#0b0a0a;
+}
+
+#product-button{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex-wrap:nowrap;
+    margin:20px;
+    padding: 20px;
+}
+
+#product-type-button{
+height: 50vh;
+margin: 15px;
+text-align: center;
+width: 400px;
+border: 1px solid rgb(202, 201, 201, 1);
+border-radius: 4px;
+
+}
+
+#product-type-button p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#product-type-button img{
+   max-width: 100%;
+}
+
 
 #pagination{
     text-align: center;
@@ -570,6 +612,10 @@ footer a:hover{
     cursor: pointer;
 }
 
+/* Acerca de */
+
+
+
 /* Contacto */
 #contactinfo{
  
@@ -621,9 +667,20 @@ footer a:hover{
 
 #about{
     margin: 40px;
-text-align: center;
+    padding: 10px;
+    text-align: center;
 
+    background-color: hsla(229, 50%, 48%, 0.4);
+    border-radius: 10px;
+    height: 40vh;
 }
+
+#bio{
+    margin: 20px;
+    padding: 30px;
+}
+
+
 
 
 /*Responsive design for mobile devices*/
