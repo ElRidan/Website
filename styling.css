@@ -496,10 +496,7 @@ footer a:hover{
     transition: 0.2s;
 }
 
-#product-button a:hover{
-    background-color: #e2e5f3 ;
-    color:#0b0a0a;
-}
+
 
 #product-button{
     display: flex;
@@ -518,6 +515,10 @@ width: 400px;
 border: 1px solid rgb(202, 201, 201, 1);
 border-radius: 4px;
 
+}
+
+#product-type-button:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1) ;
 }
 
 #product-type-button p{
