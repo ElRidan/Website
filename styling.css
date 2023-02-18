@@ -794,15 +794,28 @@ border-radius: 4px;
     }
 
     #product-type-button{
-        height: 30vh;
+        height: 32vh;
         margin: 15px;
         text-align: center;
         width: 200px;
         border: 1px solid rgb(202, 201, 201, 1);
         border-radius: 4px;
-        
      }
    
+     #about{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: hsla(229, 50%, 48%, 0.4);
+        border-radius: 10px;
+        border: #1a1a1a;
+        height: 160vh;
+    }
+    
+    #bio{
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width: 477px){
