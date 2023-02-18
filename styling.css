@@ -368,9 +368,10 @@ background-color: rgba(18, 195, 254, 0.702);
 }
 
 footer{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer p{
@@ -380,7 +381,7 @@ footer p{
 footer .col{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 20px;
 }
 footer .col img{
@@ -477,10 +478,8 @@ footer a:hover{
 #page-header p{
     color: #e2e5f3;
 }
-
-#product-button{
-   
-    
+/*Botones de la tienda*/
+#product-button{ 
     padding: 0px;
     margin: 50px;
 }
@@ -786,6 +785,23 @@ border-radius: 4px;
         height: 200vh;
     }
     
+    #product-button{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #product-type-button{
+        height: 30vh;
+        margin: 15px;
+        text-align: center;
+        width: 200px;
+        border: 1px solid rgb(202, 201, 201, 1);
+        border-radius: 4px;
+        
+     }
    
 }
 
