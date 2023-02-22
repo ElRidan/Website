@@ -8,15 +8,18 @@
         <title> Esquivel Opticas</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
         <link rel="stylesheet" href="styling.css">
-
+       
         
 
     </head>
 
     <body>
+      <a href="https://wa.me/51955529674" class="float pulse" target="_blank"> <i class="fab fa-whatsapp my-float "></i> </a>
+
+
         <section id="header">
             <a href="#"> <img src="imagenes/Logo_Esquivel.png" width="275" height="150" class="logo" alt=""> </a>
-
+        
             <div>
                 <ul id="navbar">
                     <li><a class="active" href="index.html">Home</a> </li>
@@ -31,9 +34,9 @@
                 <!--<a href="cart.hmtl"><i class="fa fa-shopping-bag"></i> </a>-->
                 <i id="bar" class="fas fa-outdent"> </i>
             </div>
-
-
-        </section>
+        
+        
+        </section>        
         
         <section id="hero">
             <h2>Regalando miradas encantadoras</h2>
@@ -45,12 +48,12 @@
         <section id="feature" class="section-p1">
             <div class="fe-box">
                 <img src="imagenes/deliveryicon.jpg" width="125" height="100" alt="">
-                <h6>Delivery disponible</h6>
+                <h6></h6>
             </div>
 
             <div class="fe-box">
                 <img src="imagenes/cellphoneicon.png" width="125" height="100" alt="">
-                <h6>Pedidos en linea</h6>
+                <h6>Consultas a domicilio</h6>
             </div>
 
             <div class="fe-box">
@@ -66,7 +69,25 @@
             <h2>Nuestros productos</h2>
             <p>Una seleccion amplia de productos opticos disponible en nuestro catalogo</p>
            
-            <div class="pro-container">
+            <section id="product-button" class="section-p1">
+                <div id="product-type-button" onclick= "window.location.href='shop-man-oftalmico.html'">
+                    <img src="imagenes/Hombre_Lentes.png" alt="">
+                    <div id="product-type-button-text"><p>Lentes de Hombres</p></div>
+                </div>
+                
+                <div id="product-type-button" onclick= "window.location.href='shop-woman-oftalmico.html'">
+                    <img src="imagenes/Mujer_Lentes.png" alt="">
+                    <div id="product-type-button-text"><p>Lentes de Mujeres</p></div>
+                </div>
+
+                <div id="product-type-button" onclick= "window.location.href='shop-kids-oftalmico.html'">
+                    <img src="imagenes/Ninos_Lentes_.jpg" alt="">
+                    <div id="product-type-button-text"><p>Lentes de Niños</p></div>
+                </div>
+                
+            </section>
+
+ <!--           <div class="pro-container">
                 <div class="pro">
                     <img src="imagenes/lentes2icono.jpg" alt="">
                     <div class="description">
@@ -100,7 +121,7 @@
                         <span>Monturas deportivas</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             
 
@@ -114,10 +135,7 @@
             <button class="normal">Explorar</button>
 
         </section>
-        
-        <br>
-        <br>
-        <br>
+      
 
         <section id="newsletter" class="section-p1 section-m1">
             <div class="newstext">
@@ -132,7 +150,6 @@
 
         </section>
 
-        
         <footer class="section-p1">    
             <div class="col">
              <img src="imagenes/Logo_Esquivel_Fondoblanco.png" width="180" height="100"  alt="">
@@ -159,14 +176,14 @@
                      <a class="fab fa-whatsapp" href="https://wa.me/51955529674" ></a>
                  </div>
              </div>
-     
+        
          <!-- <div class="col">
                  <h4>Mi cuenta</h4>
                  <a href="#">Ingresa</a>
                  <a href="#">Ver carro de compras</a>
                  <a href="#">Ayuda</a>
              </div>
-     -->
+        -->
           <!--   <div class="col install">
                  <h4>Install app</h4>
                  <p>From app store or google play</p>
@@ -177,12 +194,13 @@
                  <p>Secured Payment Gateways</p>
                  <img src="imagenes/225x100.png" alt="">
              </div>-->
-     
+        
              <div class="copyright">
                  <p>© 2022, Esquivel Opticas - Distribucion de productos opticos</p>
              </div>
          </footer>
 
+        
 
         <script src="script.js"></script>
     </body>

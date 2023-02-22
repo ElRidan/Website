@@ -41,3 +41,11 @@ const cart = {
       }
   }
 
+/*shopping cart logic*/
+
+var addToCartButton = document.getElementById('add-to-cart-button')
+
+var itemName = addToCartButton.getAttribute('data-name');
+var itemCategory = addToCartButton.getAttribute('data-category');
+var itemPrice = parseFloat(addToCartButton.getAttribute('data-price')); 
+
