@@ -29,12 +29,12 @@ h4 {
 
 h6 {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 p{
     font-size: 16px;
-    color: #465b52;
+    color: #222;
     margin: 15px 0 20px 0;
 }
 
@@ -129,16 +129,17 @@ body{
 /* Home */
 
 .float{
+    
     position: fixed;
-    width: 100px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+    right: 20px;
     background-color: #25d366;
     color:#FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 46px;
     box-shadow: 2px 2px 3px #999;
     z-index:100;
 }
@@ -184,6 +185,7 @@ body{
 }
 
 #hero p{
+    
     font-size: 30px;
     font-weight: bold;
 }
