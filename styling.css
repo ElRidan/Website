@@ -708,6 +708,7 @@ border-radius: 4px;
 
 #contactinfo h4{
     color: #222;
+    margin: 50px 0 50px 0;
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
@@ -720,6 +721,7 @@ border-radius: 4px;
     margin-bottom: 10px;
     text-decoration: none;
 }
+
 
 /* About Page */
 
@@ -738,7 +740,78 @@ border-radius: 4px;
     padding: 30px;
 }
 
+/*Elementos de footer*/
 
+.terminos_condiciones{
+    
+    display: flex;
+    flex-direction: column;
+        text-align: justify;
+    justify-content: left;
+    align-items:center ;
+    
+}
+
+.terminos_condiciones h4{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.terminos_condiciones p{
+    font-size: 17px;
+    padding-left: clamp(50px, 100px, 200px);
+    padding-right: clamp(50px, 100px, 200px);
+    padding-bottom: 20px;
+    letter-spacing: 0.10px;
+    
+}
+
+.terminos_condiciones li{
+    padding-left: clamp(50px, 100px, 200px);
+    padding-right: clamp(50px, 100px, 200px);
+    font-size: 17px;
+    padding-bottom: 20px;
+
+}
+
+
+.pollitica_privacidad{
+    
+    display: flex;
+    flex-direction: column;
+        text-align: justify;
+    justify-content: left;
+    align-items:center ;
+    
+}
+
+.pollitica_privacidad h4{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.pollitica_privacidad p{
+    font-size: 17px;
+    padding-left: clamp(50px, 100px, 200px);
+    padding-right: clamp(50px, 100px, 200px);
+    padding-bottom: 20px;
+    letter-spacing: 0.10px;
+    
+}
+
+.pollitica_privacidad li{
+    padding-left: clamp(50px, 100px, 200px);
+    padding-right: clamp(50px, 100px, 200px);
+    font-size: 17px;
+    padding-bottom: 20px;
+
+}
 
 
 /*Responsive design for mobile devices*/
@@ -875,6 +948,15 @@ border-radius: 4px;
         font-size: 10px;
     }
 
+    .terminos_condiciones{
+    
+        display: flex;
+        flex-direction: column;
+            text-align: justify;
+        justify-content: center;
+        align-items:center ;
+        
+    }
 }
 
 @media (max-width: 477px){
