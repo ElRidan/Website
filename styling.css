@@ -185,7 +185,7 @@ body{
 }
 
 #hero p{
-    
+    color:rgba(255, 255, 255, 0.874);
     font-size: 30px;
     font-weight: bold;
 }
@@ -557,7 +557,7 @@ height: 50vh;
 margin: 15px;
 text-align: center;
 width: 400px;
-border: 1px solid rgb(202, 201, 201, 1);
+border: 1px solid rgb(183, 180, 180);
 border-radius: 4px;
 
 }
@@ -926,7 +926,7 @@ border-radius: 4px;
     }
 
     #product-type-button{
-        height: 32vh;
+        height: 34vh;
         margin: 15px;
         text-align: center;
         width: 200px;
@@ -982,8 +982,22 @@ border-radius: 4px;
     }
 
     #hero{
-        padding: 0 20px;
+        background: rgba(0, 0, 0, 0.6)url("imagenes/portrait-of-happy-bearded-young-man-in-glasses-standing-outdoors.jpg");
+        background-size:cover;
+        background-blend-mode: darken;
+        padding: 0 20px;    
         background-position: 55%;
+    }
+    #hero h1{
+        color: #e2e5f3;
+    }
+
+    #hero p{
+        color:#e2e5f3;
+    }
+
+    #hero h2{
+        color: #12c3fee0
     }
 
     #feature{
