@@ -1013,9 +1013,9 @@ border-radius: 4px;
         flex-direction: column;
             text-align: justify;
         justify-content: center;
-        align-items:center ;
-        
+        align-items:center ;      
     }
+    
 }
 
 @media (max-width: 477px){
@@ -1169,6 +1169,21 @@ border-radius: 4px;
         margin-bottom: 10px;
         text-decoration: none;
     }
+ 
+ #contact-details{
+    flex-direction: column;
+}
+ /*contact page*/
+ #contact-details .details{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+ /*contact page*/
+ #contact-details .map{
+    width: 100%;
+
+}
 
 
 }
