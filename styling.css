@@ -288,7 +288,7 @@ background-color: rgba(18, 195, 254, 0.702);
 }
 
 #product1 .pro img{
-   
+    box-shadow:5px 5px 10px 10px rgb(0, 0, 0, 0.06);
     width: 100%;
     border-radius: 0px;
     
@@ -607,6 +607,10 @@ border-radius: 4px;
     margin-right: 50px;
 }
 
+#prodetails .single-pro-image img{
+    box-shadow: 10px 10px 40px  rgba(70, 62, 221, 0.1) ;
+}
+
 #prodetails .single-pro-details{
     width: 50%;
     padding-top: 30px;
@@ -725,10 +729,15 @@ border-radius: 4px;
 #contact-details{
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 #contact-details .details{
     width: 40%;
+    box-shadow: 10px 10px 54px  rgba(70, 62, 221, 0.1) ;
+    padding-left: 20px;
+    margin: 20px 20px 20px 20px;
+    border: 10px 10px rgba(70, 62, 221, 0.1) ;
 }
 
 #contact-details .details span{
@@ -765,6 +774,7 @@ border-radius: 4px;
 #contact-details .map{
     width: 55%;
     height: 400px;
+    box-shadow: 10px 10px 54px  rgba(70, 62, 221, 0.1) ;
 }
 
 #contact-details .map iframe{
@@ -1126,6 +1136,7 @@ border-radius: 4px;
         margin-top: 10px;
     }
   
+
     /* Contact page */
 
 
