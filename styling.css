@@ -681,14 +681,18 @@ border-radius: 4px;
 /* Contacto */
 #contactinfo{
  
-    background-color: #54798c43;
+    background-color: #a9b4b943;
+    
     height: 140vh;
     max-width: 100%;
     padding: 0 80px;
+    padding-top: 20px;
+    margin-bottom: 40px;
     display:flex;
     align-items:center;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 10px 10px 20px 20px rgba(25, 25, 25, 0.1);
 }
 
 #info-block{
@@ -1143,7 +1147,7 @@ border-radius: 4px;
 
     #contactinfo{
         background-size: 160vh;
-        height: 180vh;
+        height: 190vh;
     }
     
   
@@ -1182,7 +1186,6 @@ border-radius: 4px;
  /*contact page*/
  #contact-details .map{
     width: 100%;
-
 }
 
 
